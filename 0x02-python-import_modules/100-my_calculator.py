@@ -14,8 +14,10 @@ if __name__ =="__main__":
          print("{} + {} = {}".format(a, b, add(a, b)))
     elif operation == "/":
          print("{} / {} = {}".format(a, b, div(a, b)))
-    elif operation = "*":
+    elif operation == "*":
          print("{} * {} = {}".format(a, b, mul(a, b)))
     elif operation == "-":
          print("{} - {} = {}".format(a, b, sub(a, b)))
-         exit(1)
+    else:
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)

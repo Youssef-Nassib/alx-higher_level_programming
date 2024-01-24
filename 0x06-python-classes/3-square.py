@@ -8,6 +8,6 @@ class Square:
             raise TypeError("size must be >= 0")
         self.__size = size
 
-    """define a new metthode"""
+        """define a new metthode"""
     def area(self):
         return (self.__size * self.__size)

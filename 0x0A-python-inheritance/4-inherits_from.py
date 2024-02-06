@@ -5,7 +5,7 @@
 def inherits_from(obj, a_class):
     """Checks if an object is an inherited instance of a class.
 
-    
+
     Returns:
         If obj is an inherited instance of a_class - True.
         Otherwise - False.

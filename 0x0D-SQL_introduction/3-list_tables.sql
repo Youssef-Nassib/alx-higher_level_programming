@@ -1,3 +1,2 @@
---Liste all data base from you server
-USE `mysql`;
+--Liste all data base from you server.
 SHOW TABLES;
